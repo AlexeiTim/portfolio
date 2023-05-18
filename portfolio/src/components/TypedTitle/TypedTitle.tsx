@@ -7,9 +7,9 @@ const TypedTitle = () => {
   React.useEffect(() => {
     const typed = new Typed(el.current, {
       strings: [
-        'Future Junior Frontend Developer',
-        'Future Middle Frontend Developer',
-        'Future Senior Frontend Developer',
+        'Future Frontend Developer',
+        'Future Frontend Developer',
+        'Future Frontend Developer',
       ],
       startDelay: 300,
       typeSpeed: 100,
@@ -23,7 +23,7 @@ const TypedTitle = () => {
   });
   return (
     <>
-      <span ref={el}>Future Frontend Developer</span>
+      <span className='type-text' ref={el}>Future Frontend Developer</span>
     </>
   );
 };
