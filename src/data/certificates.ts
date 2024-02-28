@@ -1,4 +1,5 @@
 import {
+  CERTIFICATE_DJANGO_COURSE,
   CERTIFICATE_MAIN_COURSE,
   CERTIFICATE_PRESCHOOL_1,
   CERTIFICATE_PRESCHOOL_2,
@@ -31,9 +32,16 @@ export const certificates: Certificate[] = [
   },
   {
     id: 4,
-    title: "IT-CODE Vue Frontend",
+    title: "IT-CODE Vue Frontend 2023",
     description: "2023-05-05 - 2023-07-05",
     image: CERTIFICATE_VUE_COURSE,
     link: "https://disk.yandex.by/i/lFdpc_wh54GeEQ",
+  },
+  {
+    id: 5,
+    title: "IT-CODE Django Backend 2023",
+    description: "2023-10-01 - 2023-12-28",
+    image: CERTIFICATE_DJANGO_COURSE,
+    link: "https://disk.yandex.by/i/BeAK6DM__Y32Ww",
   },
 ];

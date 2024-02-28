@@ -11,6 +11,7 @@ import certif1 from "../assets/cerf1.png";
 import certif2 from "../assets/cerf2.png";
 import certif3 from "../assets/cerf3.png";
 import vueCertificate from "../assets/vue-certificate.jpg";
+import djangoCertificate from "../assets/django-certeficate.jpg";
 import lead from "../assets/lead.png";
 
 export const photo1 = photoOne;
@@ -26,4 +27,5 @@ export const CERTIFICATE_PRESCHOOL_1 = certif1;
 export const CERTIFICATE_PRESCHOOL_2 = certif2;
 export const CERTIFICATE_MAIN_COURSE = certif3;
 export const CERTIFICATE_VUE_COURSE = vueCertificate;
+export const CERTIFICATE_DJANGO_COURSE = djangoCertificate;
 export const TEST_VUE_TASK_LEAD = lead;
