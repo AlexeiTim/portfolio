@@ -1,4 +1,11 @@
-import { CONSTRUCTOR_CALCULATOR, MOMENTUM, RS_RUSH_COVER, SLIDER_PUZZLE, SONG_BIRDS, TRAVEL_LANDING } from "../constants/images";
+import {
+  CONSTRUCTOR_CALCULATOR,
+  MOMENTUM,
+  RS_RUSH_COVER,
+  SLIDER_PUZZLE,
+  SONG_BIRDS,
+  TRAVEL_LANDING,
+} from "../constants/images";
 import { Project } from "../types/Project";
 
 export const projects: Project[] = [

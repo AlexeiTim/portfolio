@@ -1,12 +1,12 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const pathLinks = [
-    {id: 1, path: "/", text: "Home"},
-    {id: 2, path: "/about", text: "About"},
-    {id: 3, path: "/certificates", text: "Certificates"},
-    {id: 4, path: "/projects", text: "Projects"},
+    { id: 1, path: "/", text: "Home" },
+    { id: 2, path: "/about", text: "About" },
+    { id: 3, path: "/certificates", text: "Certificates" },
+    { id: 4, path: "/projects", text: "Projects" },
     // {id: 5, path: "/contact", text: "Contact"},
   ];
 
@@ -20,17 +20,9 @@ const Header = () => {
   };
 
   const burger = isActiveBurger ? (
-    <i
-      onClick={onToggle}
-      className='bx bx-x'
-      id='menu-icon'
-    ></i>
+    <i onClick={onToggle} className="bx bx-x" id="menu-icon"></i>
   ) : (
-    <i
-      onClick={onToggle}
-      className='bx bx-menu'
-      id='menu-icon'
-    ></i>
+    <i onClick={onToggle} className="bx bx-menu" id="menu-icon"></i>
   );
   const onChangeActive = (index: number) => {
     setIsActiveLink(index);
@@ -49,12 +41,8 @@ const Header = () => {
     </Link>
   ));
   return (
-    <header className='header'>
-      <Link
-        onClick={() => onChangeActive(0)}
-        to='/'
-        className='logo'
-      >
+    <header className="header">
+      <Link onClick={() => onChangeActive(0)} to="/" className="logo">
         Portfolio
       </Link>
       {burger}

@@ -1,5 +1,5 @@
-import React from 'react';
-import Typed from 'typed.js';
+import React from "react";
+import Typed from "typed.js";
 
 const TypedTitle = () => {
   const el = React.useRef(null);
@@ -7,9 +7,9 @@ const TypedTitle = () => {
   React.useEffect(() => {
     const typed = new Typed(el.current, {
       strings: [
-        'Future Frontend Developer',
-        'Future Frontend Developer',
-        'Future Frontend Developer',
+        "Vue Frontend Developer",
+        "Vue Frontend Developer",
+        "Vue Frontend Developer",
       ],
       startDelay: 300,
       typeSpeed: 100,
@@ -23,7 +23,9 @@ const TypedTitle = () => {
   });
   return (
     <>
-      <span className='type-text' ref={el}>Future Frontend Developer</span>
+      <span className="type-text" ref={el}>
+        Vue Frontend Developer
+      </span>
     </>
   );
 };
