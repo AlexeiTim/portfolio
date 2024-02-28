@@ -34,9 +34,15 @@ const Home = () => {
         <h3>
           And I'm a <TypedTitle />
         </h3>
-        <p>
-          No commercial development experience. Learning JS, TypeScript, React,
-          Vue!
+        <p
+          style={{
+            width: "70%",
+          }}
+        >
+          I have been working as a developer since June 16, 2023. Technologies:
+          JS, python, TypeScript, React, React-router-dom, Redux, RTK, Vue,
+          Pinia, Vuex, VueRouter, element-plus, bootstrap, tailwindcss, Django,
+          Django-rest-framework!
         </p>
         <div className="social-media">
           <SocialList links={socialLinks} />
