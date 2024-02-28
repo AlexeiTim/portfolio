@@ -34,11 +34,7 @@ const Home = () => {
         <h3>
           And I'm a <TypedTitle />
         </h3>
-        <p
-          style={{
-            width: "70%",
-          }}
-        >
+        <p>
           I have been working as a developer since June 16, 2023. Technologies:
           JS, python, TypeScript, React, React-router-dom, Redux, RTK, Vue,
           Pinia, Vuex, VueRouter, element-plus, bootstrap, tailwindcss, Django,

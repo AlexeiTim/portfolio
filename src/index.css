@@ -84,6 +84,10 @@ section {
   gap: 1rem;
 }
 
+.fade-right {
+  flex-basis: 50%;
+}
+
 .home-content h3 {
   font-size: 3.2rem;
   font-weight: 700;
