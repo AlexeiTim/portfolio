@@ -4,6 +4,7 @@ import {
   RS_RUSH_COVER,
   SLIDER_PUZZLE,
   SONG_BIRDS,
+  TEST_VUE_TASK_LEAD,
   TRAVEL_LANDING,
 } from "../constants/images";
 import { Project } from "../types/Project";
@@ -50,5 +51,12 @@ export const projects: Project[] = [
     description: "Game",
     link: "https://rolling-scopes-school.github.io/alexeitim-JSFE2022Q3/codejam/dist/",
     image: SLIDER_PUZZLE,
+  },
+  {
+    id: 7,
+    title: "Lead",
+    description: "Test Vue task",
+    link: "https://test-task-vue-frontend.vercel.app/",
+    image: TEST_VUE_TASK_LEAD,
   },
 ];

@@ -2,6 +2,7 @@ import {
   CERTIFICATE_MAIN_COURSE,
   CERTIFICATE_PRESCHOOL_1,
   CERTIFICATE_PRESCHOOL_2,
+  CERTIFICATE_VUE_COURSE,
 } from "../constants/images";
 import { Certificate } from "../types/Certificate";
 
@@ -27,5 +28,12 @@ export const certificates: Certificate[] = [
     description: "2022-09-04 - 2023-03-07",
     image: CERTIFICATE_MAIN_COURSE,
     link: "https://app.rs.school/certificate/lsjazky1",
+  },
+  {
+    id: 4,
+    title: "IT-CODE Vue Frontend",
+    description: "2023-05-05 - 2023-07-05",
+    image: CERTIFICATE_VUE_COURSE,
+    link: "https://disk.yandex.by/i/lFdpc_wh54GeEQ",
   },
 ];
