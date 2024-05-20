@@ -6,10 +6,18 @@ import {
   SONG_BIRDS,
   TEST_VUE_TASK_LEAD,
   TRAVEL_LANDING,
+  REACT_SUMMER
 } from "../constants/images";
 import { Project } from "../types/Project";
 
 export const projects: Project[] = [
+  {
+    id: 8,
+    title: 'REACT-TEST-APP',
+    description: "Client(React) + Proxy server(express). Work only with VPN.",
+    link: 'https://react-test-app-plum.vercel.app/movies',
+    image: REACT_SUMMER,
+  },
   {
     id: 1,
     title: "RS-RUSH",

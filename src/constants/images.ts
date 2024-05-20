@@ -13,6 +13,7 @@ import certif3 from "../assets/cerf3.png";
 import vueCertificate from "../assets/vue-certificate.jpg";
 import djangoCertificate from "../assets/django-certeficate.jpg";
 import lead from "../assets/lead.png";
+import react_summer from '../assets/react-summer.png'
 
 export const photo1 = photoOne;
 export const photo2 = photoTwo;
@@ -29,3 +30,4 @@ export const CERTIFICATE_MAIN_COURSE = certif3;
 export const CERTIFICATE_VUE_COURSE = vueCertificate;
 export const CERTIFICATE_DJANGO_COURSE = djangoCertificate;
 export const TEST_VUE_TASK_LEAD = lead;
+export const REACT_SUMMER = react_summer
