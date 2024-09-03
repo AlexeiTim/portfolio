@@ -15,6 +15,9 @@ import djangoCertificate from "../assets/django-certeficate.jpg";
 import lead from "../assets/lead.png";
 import react_summer from "../assets/react-summer.png";
 import vue_examen from "../assets/vue-examen.png";
+import nuxt_market from "../assets/market.png";
+import crypto from "../assets/crypto.png";
+import inventory from "../assets/inventory.png";
 
 export const photo1 = photoOne;
 export const photo2 = photoTwo;
@@ -33,3 +36,6 @@ export const CERTIFICATE_DJANGO_COURSE = djangoCertificate;
 export const TEST_VUE_TASK_LEAD = lead;
 export const REACT_SUMMER = react_summer;
 export const VUE_EKZAMEN = vue_examen;
+export const NUXT_MARKET = nuxt_market;
+export const CRYPTO = crypto;
+export const INVENTORY = inventory;

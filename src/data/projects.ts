@@ -8,10 +8,20 @@ import {
   TRAVEL_LANDING,
   REACT_SUMMER,
   VUE_EKZAMEN,
+  NUXT_MARKET,
+  CRYPTO,
+  INVENTORY,
 } from "../constants/images";
 import { Project } from "../types/Project";
 
 export const projects: Project[] = [
+  {
+    id: 10,
+    title: "Market",
+    description: "Frontend(Nuxt3) + Backend(Django)",
+    link: "https://nuxt-3-nitro-market.vercel.app/",
+    image: NUXT_MARKET,
+  },
   {
     id: 9,
     title: "VUE-EKZAMEN",
@@ -32,6 +42,20 @@ export const projects: Project[] = [
     description: "Education platform for learn JS",
     link: "https://rs-rush.netlify.app/",
     image: RS_RUSH_COVER,
+  },
+  {
+    id: 12,
+    title: "Inventory",
+    description: "Frontend(Vue3) + D&D",
+    link: "https://rlt-test-one.vercel.app/",
+    image: INVENTORY,
+  },
+  {
+    id: 11,
+    title: "Crypto",
+    description: "Frontend(Vue3)",
+    link: "https://tmp-test-beta.vercel.app/",
+    image: CRYPTO,
   },
   {
     id: 2,
